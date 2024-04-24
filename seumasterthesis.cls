@@ -778,7 +778,7 @@
                 \makebox[3.5cm][s]{\xiaoerhao\heiti\mainmajorpre:  } &
                 \underline{
                     \makebox[6cm][s] {
-                        \xiaoerhao\songti\textbf{\@major}
+                        \xiaoerhao\songti\textbf{\@submajor}
                     }
                 } \\
                 \makebox[3.5cm][s]{\xiaoerhao\heiti\authorpre:  } &
@@ -993,6 +993,7 @@
     \cleardoublepage
     \phantomsection
     \addcontentsline{toc}{chapter}{\bibname}
+    \setlength{\bibsep}{0pt}
     \bibliography{#1}
 }
 
